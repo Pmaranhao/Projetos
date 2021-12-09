@@ -90,13 +90,57 @@ section .cover-form{
     border: 0;
 }
 
+.chamada{
+    width: 80%;
+    height: 70px;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: #D6D6D6;
+}
+
+.flex-mosaico{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ADD8E6;
+
+}
+
+.item1{
+    background-position: center;
+    background-size: cover;
+    width: 70%;
+}
+
+.item2{
+    width: 30%;
+    padding: 40px;
+    font-size: 22px;
+}
+
+footer{
+    background-color: #D6D6D6;
+}
+
+footer div {
+    text-align: center;
+    padding: 5px;
+}
+
+footer img{
+    width: 15%;
+}
+
+
 
 @media(max-width:550px){
     header .container{
         display:inline-block ;
         width: 100%;
         text-align: center;
-        padding: 0 2%;
+        padding: 2% 2%;
     }
     
     .logo1{
@@ -104,5 +148,19 @@ section .cover-form{
     }
     .logo2{
         margin: 20px 0 10px 15px;
+    }
+
+    .container-form {
+        width: 290px;
+        margin: 0 auto;
+    }
+
+    .container-section {
+        background-image: none;
+        text-align: center;
+    }
+    .chamada{
+        margin-bottom: 10px;
+        width: 100%;
     }
 }
