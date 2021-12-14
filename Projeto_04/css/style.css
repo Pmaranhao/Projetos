@@ -22,6 +22,7 @@ header{
 	background-position: center;
 	background-image: url('../imagens/capa.png');
 	padding: 40px 2%;
+	font-weight: 300;
 }
 
 header nav{
@@ -70,4 +71,57 @@ header li a{
 	font-size: 15px;
 	color: white;
 	margin-top: 10px;
+}
+
+section.sessao1{
+	width: 100%;
+	background-color: #472562;
+	padding: 0 2%;
+}
+
+.texto-sessao1{
+	float: left;
+	color: white;
+	width: 60%;
+}
+
+.texto-sessao1 h2{
+	font-weight: 300;
+}
+
+.texto-sessao1 p{
+	margin-top: 20px;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+.texto-sessao1 ul{
+	font-size: 14px;
+	list-style-position: inside;
+}
+
+.texto-sessao1 ul li{
+	float: left;
+	width: 100%;
+}
+
+.btn1-texto{
+	background-color: #FF703D;
+	width: 165px;
+	height: 44px;
+	color: white;
+	cursor: pointer;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 44px;
+	border-radius: 30px;
+}
+
+.device-sessao1{
+	float: left;
+	width: 50%;
+	background-attachment: url('../imagens/device.png');
+	background-repeat:  no-repeat;
+	background-size: 100% auto;
+	height: 300px;
 }
